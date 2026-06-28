@@ -82,19 +82,19 @@ This project follows a fully automated Excel Workflow.
             - Preserves headers and formatting
             - Applies a standardized file naming convention
         - Example:
-            - North America/
-            |
-            ├── customer_1.xlsx 
+            - North America/<br>
+            |<br>
+            ├── customer_1.xlsx <br>
             ├── customer_2.xlsx
             
-            - Africa/
-            |
-            ├── customer_3.xlsx 
-            ├── customer_4.xlsx
+            - Africa/ <br>
+            |<br>
+            ├── customer_3.xlsx <br>
+            ├── customer_4.xlsx <br>
 
-            - Latam/
-            |
-            ├── customer_5.xlsx
+            - Latam/ <br>
+            |<br>
+            ├── customer_5.xlsx <br>
     
     6. Organize Output
         - The generated workbooks are automatically saved into folders corresponding to their assigned region, making them immediately available for distribution to regional dispute teams. 
