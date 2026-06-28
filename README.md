@@ -121,47 +121,29 @@ This project follows a fully automated Excel Workflow.
 - Excel File Generation
 
 ## 🔄 Workflow
-Open UDM_Dispute.xlsm
 
-        |
-        ▼
+```mermaid
+flowchart TD
 
-Open UDM_Notes.xlsx
+A["Open UDM_Dispute.xlsm"]
+B["Open UDM_Notes.xlsx"]
+C["Create Working Worksheets"]
+D["Match and Merge Notes"]
+E["Clean and Format Data"]
+F["Split by Region"]
+G["Split by Customer Account"]
+H["Generate Individual Workbooks"]
+I["Save Output Files"]
 
-        |
-        ▼
-
-Worksheet creation inside Master Workbook
-
-        |
-        ▼
-
-Match and Merge Notes
-
-        |
-        ▼
-
-Split by Region
-
-        |
-        ▼
-
-Create Regional Worksheets
-
-        |
-        ▼
-
-Identify Customer Accounts in each Worksheet
-
-        |
-        ▼
-
-Generate individual Files
-
-        |
-        ▼
-
-Save to Regional Folders
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+H --> I
+```
 
 NOTE: the sample files included in this repository contain anonymized data to protect confidential business information.
 
