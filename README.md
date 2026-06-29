@@ -145,6 +145,24 @@ G --> H
 H --> I
 ```
 
+### Macro Execution
+- The animation below demonstrates the complete automation workflow, from loading the source files to generating customer-specific workbooks organized by region.
+
+![Macro Execution](images/5. Output_Folders.png)
+
+### Source Workbook
+![Source UDM_Dispute](2. Input _ Open UDM_Dispute.png) <br>
+![Source UDM_Notes](2. Input _ Open UDM_Notes.png)
+
+### Main Worksheet After Data Preparation
+![Prepared Data](images/3. merged_data.png)
+
+### Regional Split
+![Regional Worksheets](images/4. region_split.png)
+
+### Generated Output
+![Output Folder](images/5. Output_Folders.png)
+
 NOTE: the sample files included in this repository contain anonymized data to protect confidential business information.
 
 ## 📈 Project Highlights
